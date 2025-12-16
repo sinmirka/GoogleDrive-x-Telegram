@@ -7,14 +7,14 @@ This bot is designed for personal use and helps store important content from Tel
 
 ### The bot supports saving the following types of messages:
 
-Text messages (saved as .txt files)
-Photos (JPG, PNG, GIF)
-Documents (PDF, DOCX, XLSX, ZIP and others)
-Audio files
-Voice messages (.ogg)
-Videos
-Video notes (round videos)
-Animations (GIF)
+Text messages (saved as .txt files), 
+Photos (JPG, PNG, GIF), 
+Documents (PDF, DOCX, XLSX, ZIP and others), 
+Audio files, 
+Voice messages (.ogg), 
+Videos, 
+Video notes (round videos), 
+Animations (GIF).
 
 Unsupported message types are handled gracefully with a fallback response.
 All files are uploaded to a specified Google Drive folder.
