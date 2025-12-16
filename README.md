@@ -93,3 +93,7 @@ This bot is intended for personal use only
 Only the owner (defined by OWNER_ID) can interact with the bot
 
 All sensitive credentials are excluded from the repository via .gitignore. Dont leak your tokens.
+
+# Demonstration
+
+![TGxGD_demo](https://github.com/user-attachments/assets/3f6a04d4-40e3-4a06-bba2-204e7f70a529)
