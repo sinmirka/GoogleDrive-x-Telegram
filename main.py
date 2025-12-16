@@ -29,6 +29,15 @@ dp.include_router(voice_router)
 from handlers.video import router as video_router
 dp.include_router(video_router)
 
+from handlers.audio import router as audio_router
+dp.include_router(audio_router)
+
+from handlers.video_note import router as video_note_router
+dp.include_router(video_note_router)
+
+from handlers.unsupported import router as unsupported_router
+dp.include_router(unsupported_router)
+
 async def main():
     await dp.start_polling(bot)
 

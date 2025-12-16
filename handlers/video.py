@@ -4,7 +4,7 @@ from filters import is_owner
 from datetime import datetime
 import os
 
-from google_drive import upload_video
+from google_drive import upload_video_audio
 
 router = Router()
 
@@ -23,7 +23,7 @@ async def handle_video(message: Message):
         destination=filename
     )
 
-    upload_video(filename, mime_type=video.mime_type)
+    upload_video_audio(filename, mime_type=video.mime_type)
 
     os.remove(filename)
 

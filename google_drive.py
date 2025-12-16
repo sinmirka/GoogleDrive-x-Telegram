@@ -109,7 +109,7 @@ def upload_voice(filename: str, mime_type: str):
     print("File uploaded, type: voice, ID:", file.get("id"))
 
 
-def upload_video(filename: str, mime_type: str):
+def upload_video_audio(filename: str, mime_type: str):
     creds = Credentials.from_authorized_user_file(
         "token.json",
         scopes=SCOPES
