@@ -20,6 +20,15 @@ dp.include_router(text_router)
 from handlers.image import router as image_router
 dp.include_router(image_router)
 
+from handlers.document import router as doc_router
+dp.include_router(doc_router)
+
+from handlers.voice import router as voice_router
+dp.include_router(voice_router)
+
+from handlers.video import router as video_router
+dp.include_router(video_router)
+
 async def main():
     await dp.start_polling(bot)
 
