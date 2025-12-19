@@ -17,3 +17,11 @@ venv/
 .env
 service_account.json
 token.json
+service_account.json
+token.json
+credentials.json
+.env
+__pycache__/
+*.log
+*.pyc
+config.py
