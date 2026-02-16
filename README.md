@@ -6,8 +6,9 @@ This bot is designed for personal use and helps store important content from Tel
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/3f6a04d4-40e3-4a06-bba2-204e7f70a529" width="500">
+  <br>
+  <em>SinCleaner demo</em>
 </p>
-
 
 ## Features
 
