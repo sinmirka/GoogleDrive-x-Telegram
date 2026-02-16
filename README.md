@@ -8,33 +8,33 @@ This bot is designed for personal use and helps store important content from Tel
 
 ### The bot supports saving the following types of messages:
 
-Text messages (saved as .txt files)
+- Text messages (saved as .txt files)
 
-Photos (JPG, PNG, GIF)
+- Photos (JPG, PNG, GIF)
 
-Documents (PDF, DOCX, XLSX, ZIP and others)
+- Documents (PDF, DOCX, XLSX, ZIP and others)
 
-Audio files
+- Audio files
 
-Voice messages (.ogg)
+- Voice messages (.ogg)
 
-Videos
+- Videos
 
-Video notes (round videos)
+- Video notes (round videos)
 
-Animations (GIF)
+- Animations (GIF)
 
-Unsupported message types are handled gracefully with a fallback response.
+Unsupported message types are handled with a fallback response.
 
 All files are uploaded to a specified Google Drive folder.
 
 ## Tech Stack
 
-Python 3.10+
+- Python 3.10+
 
-aiogram 3
+- aiogram 3
 
-Google Drive API (OAuth 2.0)
+- Google Drive API (OAuth 2.0)
 
 ## Setup
 
@@ -60,13 +60,15 @@ pip install -r requirements.txt
 
 ### Telegram Bot
 
-Create a Telegram bot using @BotFather and put the bot token into a config file (config.py or .env):
+Create a Telegram bot using @BotFather and put the bot token into a config file (config.py):
 
 BOT_TOKEN=your_bot_token_here
 
 OWNER_ID=your_telegram_id
 
 ## Google Drive
+
+You really will need tutorials for this, but here is a small guide:
 
 Create a Google Cloud project
 
