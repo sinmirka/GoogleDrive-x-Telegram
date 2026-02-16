@@ -4,6 +4,11 @@ A personal Telegram bot that automatically saves messages and files to Google Dr
 
 This bot is designed for personal use and helps store important content from Telegram directly into a chosen Google Drive folder.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3f6a04d4-40e3-4a06-bba2-204e7f70a529" width="500">
+</p>
+
+
 ## Features
 
 ### The bot supports saving the following types of messages:
@@ -95,7 +100,3 @@ This bot is intended for personal use only
 Only the owner (defined by OWNER_ID) can interact with the bot
 
 All sensitive credentials are excluded from the repository via .gitignore. Dont leak your tokens.
-
-# Demonstration
-
-![TGxGD_demo](https://github.com/user-attachments/assets/3f6a04d4-40e3-4a06-bba2-204e7f70a529)
